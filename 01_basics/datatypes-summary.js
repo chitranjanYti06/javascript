@@ -38,4 +38,37 @@ const myFun= function(){
 
 console.log(typeof heros)
 //jitne bhi non primitive datatype hain unta type object hi aata hai
+
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+//Stack(primitive), Heap(Non-primitive)
+//jab bhi ham stack ke under memory allocate hoti hai to hame uski copy milti hai
+// jab bhi heap ke under memory allocate karte hain to usko reference milta hai to jab bhi change karenge to original value me change hota hai
+
+
+let myYoutubeName ="chitranjankumat"
+
+let anotherName = myYoutubeName
+anotherName = "chaipeCharcha"
+
+console.log(anotherName);
+console.log(myYoutubeName)
+
+let user1={
+    email: "user@google.com",
+    
+    upi : "5666@ybl"
+}
+
+let user2=user1
+user2.email = "chitranjan@google.com"
+console.log(user1.email)
+console.log(user2.email)
     
