@@ -49,7 +49,7 @@ console.log(typeof heros)
 
 
 //Stack(primitive), Heap(Non-primitive)
-//jab bhi ham stack ke under memory allocate hoti hai to hame uski copy milti hai
+//jab bhi ham stack ke under memory allocate hoti hai to hame uski variable ki hamko copy milti hai copy milti hai
 // jab bhi heap ke under memory allocate karte hain to usko reference milta hai to jab bhi change karenge to original value me change hota hai
 
 
