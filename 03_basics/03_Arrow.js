@@ -51,4 +51,8 @@ const addTwo = (num1 , num2) =>( {username : "chitranjan"})
 console.log(addTwo(3,4))
 
 
+const myArray = [2,7,8,8,10]
+
+// myArray.forEach(()=>())
+
 
