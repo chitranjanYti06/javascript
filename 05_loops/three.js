@@ -28,3 +28,13 @@ map.set('In' , "India")
 for (const [key, value] of map) {
     console.log(key, '-' ,value);
 }
+
+const myObjects = {
+    'game1': 'NFS',
+    'game2': 'Spiderman'
+}
+
+// for (const [key,value] of myObjects) {
+//     console.log(key, '-' ,value);
+// }
+
