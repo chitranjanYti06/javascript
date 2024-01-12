@@ -26,3 +26,7 @@ console.table([accountEmail,accountId,accountPassword,accountCity,accountState])
     because of issue in block scope and functional scope
      */
 }
+
+// war have a issue because it has function scope 
+// example if we have a variable and another variable with the same name isnide the function if we 
+//are making any chnage in the variable so it will effect the another variable
